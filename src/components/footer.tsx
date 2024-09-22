@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-background text-foreground py-8 border-t border-border">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
             <h3 className="font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
@@ -92,10 +92,11 @@ export default function Footer() {
               </button>
             </form>
           </div>
-        </div>
+        </div> */}
 
-        <div className="mt-8 flex flex-col md:flex-row justify-between items-center border-t border-border pt-8">
-            <p className="text-sm">© 2024 Jacob Huber Endeavors, LLC.</p>
+{/* <div className="mt-8 flex flex-col md:flex-row justify-between items-center border-t border-border pt-8"> */}
+        <div className="mt-8 flex flex-col md:flex-row justify-between items-center border-border pt-8">
+          <p className="text-sm">© 2024 Jacob Huber Endeavors, LLC.</p>
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
                 <Link href="https://github.com/JacobHuberEndeavorsLLC" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
                 <GitHubLogoIcon className="h-6 w-6" />

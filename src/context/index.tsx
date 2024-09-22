@@ -27,6 +27,7 @@ const modal = createAppKit({
     projectId,
     networks: [mainnet],
     defaultNetwork: mainnet,
+    allowUnsupportedChain: true,
     metadata: metadata,
     features: {
       analytics: true,
