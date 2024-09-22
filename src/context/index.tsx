@@ -20,17 +20,19 @@ const metadata = {
   icons: ["https://avatars.githubusercontent.com/u/97369738"]
 }
 
-// Create the modal
+// Disable the ESLint error for the unused modal variable
+/* eslint-disable @typescript-eslint/no-unused-vars */
 const modal = createAppKit({
-  adapters: [wagmiAdapter],
-  projectId,
-  networks: [mainnet],
-  defaultNetwork: mainnet,
-  metadata: metadata,
-  features: {
-    analytics: true,
-  }
-})
+    adapters: [wagmiAdapter],
+    projectId,
+    networks: [mainnet],
+    defaultNetwork: mainnet,
+    metadata: metadata,
+    features: {
+      analytics: true,
+    }
+  })
+  /* eslint-enable @typescript-eslint/no-unused-vars */
 
 function ContextProvider({ children, cookies }: { children: ReactNode; cookies: string | null }) {
   const initialState = cookieToInitialState(wagmiAdapter.wagmiConfig as Config, cookies)
