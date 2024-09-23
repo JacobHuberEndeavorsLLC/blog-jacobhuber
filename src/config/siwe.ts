@@ -37,6 +37,7 @@ export const siweConfig = createSIWEConfig({
       })
       return Boolean(success?.ok)
     } catch (error) {
+      console.log(error)
       return false
     }
   },
@@ -47,6 +48,7 @@ export const siweConfig = createSIWEConfig({
       })
       return true
     } catch (error) {
+      console.log(error)
       return false
     }
   },

@@ -42,14 +42,14 @@ export default function AboutPage() {
           Outside of work, I&#39;m the creator of two passion projects: <Link href="https://maizehelps.art/" target="_blank" rel="noopener noreferrer"><strong>Maize</strong></Link> and <Link href="https://www.cobsfarm.com/" target="_blank" rel="noopener noreferrer"><strong>Cob&#39;s Farm</strong></Link>, both of which allow me to explore blockchain technology in fun and creative ways. My interests stretch across areas like blockchain, AI, philosophy, and even stock market trends. 
         </p>
         <p>
-          At the heart of it all, I enjoy learning, whether it's discovering new tech or finding joy in the everyday.
+          At the heart of it all, I enjoy learning, whether it&#39;s discovering new tech or finding joy in the everyday.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Looking Ahead</h2>
         <p>
-          My goal is simple: to keep growing, exploring, and sharing what I learn along the way. Whether it's in tech or life, I aim to maintain balance and stay curious. In the future, I&#39;m excited about the possibility of starting a family and continuing to explore new adventures.
+          My goal is simple: to keep growing, exploring, and sharing what I learn along the way. Whether it&#39;s in tech or life, I aim to maintain balance and stay curious. In the future, I&#39;m excited about the possibility of starting a family and continuing to explore new adventures.
         </p>
       </section>
 
