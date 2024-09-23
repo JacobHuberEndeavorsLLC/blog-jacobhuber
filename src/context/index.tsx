@@ -6,6 +6,7 @@ import { createAppKit } from '@reown/appkit/react'
 import { mainnet } from '@reown/appkit/networks'
 import React, { type ReactNode } from 'react'
 import { cookieToInitialState, WagmiProvider, type Config } from 'wagmi'
+import { siweConfig } from '../config/siwe';
 
 const queryClient = new QueryClient()
 
@@ -27,11 +28,17 @@ const modal = createAppKit({
     projectId,
     networks: [mainnet],
     defaultNetwork: mainnet,
-    allowUnsupportedChain: true,
     metadata: metadata,
+    siweConfig: siweConfig,
     features: {
       analytics: true,
-    }
+      swaps: false,
+      onramp: false
+    },
+    featuredWalletIds: [
+      'c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96',
+      '3968c3f5e1aa69375e71bfc3da08a1d24791ac0b3d1c3b1c7e3a2676d175c856'
+    ]
   })
   /* eslint-enable @typescript-eslint/no-unused-vars */
 

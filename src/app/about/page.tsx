@@ -6,10 +6,9 @@ export default function AboutPage() {
     <div className="container mx-auto p-6">
       <h1 className="text-3xl font-bold mb-6">About Me</h1>
 
-      {/* Image Placeholder - Add an actual image */}
       <div className="mb-6">
         <Image
-          src="/AboutMe.jpeg" // Replace with your image path
+          src="/AboutMe.jpeg"
           alt="Me with a couple cats"
           width={600}
           height={400}
@@ -18,39 +17,39 @@ export default function AboutPage() {
       </div>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
+        <h2 className="text-2xl font-semibold mb-4">Who I Am</h2>
         <p>
-          Hello! I&#39;m Jacob, a software engineer with a passion for technology and a drive for continuous learning. My curiosity pushes me to explore diverse fields—from blockchain and AI to real estate and philosophy. I believe in solving complex problems and balancing professional growth with enriching personal experiences. 
+          Hi, I&#39;m Jacob! I&#39;m someone who thrives on curiosity, always looking for new experiences and ways to grow. Whether it&#39;s spending time outdoors, visiting local breweries, exploring philosophy, or learning about real estate, I enjoy diving into a wide range of interests. 
         </p>
         <p>
-          Outside of work, I value discovering new places, enjoying local breweries and wineries, and spending time in nature with my wife. For me, it&#39;s about finding joy in life&#39;s moments and growing with each new experience.
+          Outside of work, I love visiting parks, enjoying nature with my wife, and discovering hidden gems in the form of live music, wineries, or a great new book. Life is about balance for me, finding moments of joy in simple things, and sharing them with the people I care about.
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Professional Background</h2>
         <p>
-          My journey started in the food industry, where I honed essential skills like leadership, hard work, and service. In 2019, I transitioned into technology as a technical support analyst, building a solid foundation in troubleshooting and systems analysis.
+          While I&#39;m passionate about my personal interests, professionally, I&#39;m a Software Engineer at <Link href="https://www.symplr.com/" target="_blank" rel="noopener noreferrer"><strong>symplr</strong></Link>. I work as part of the Professional Services team, developing custom projects and working with clients to meet their business needs. I specialize in data integrations, API consulting, and managing multiple projects with a high degree of independence.
         </p>
         <p>
-          Today, I am a Software Engineer at <Link href="https://www.symplr.com/" target="_blank" rel="noopener noreferrer"><strong>symplr</strong></Link>, part of the Professional Services team. I specialize in custom development projects, focusing on integrating client-specific business requirements, managing data importing/exporting, and consulting on API integrations. I manage multiple projects independently, working closely with clients to deliver tailored solutions while collaborating with an amazing team.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Projects and Interests</h2>
-        <p>
-          I am the creator of two passion projects: <Link href="https://maizehelps.art/" target="_blank" rel="noopener noreferrer"><strong>Maize</strong></Link> and <Link href="https://www.cobsfarm.com/" target="_blank" rel="noopener noreferrer"><strong>Cob&#39;s Farm</strong></Link>. These ventures allow me to dive deep into blockchain technology and sharpen my development skills. My professional interests span blockchain, AI, and the stock market, while personally, I enjoy exploring real estate and philosophy.
-        </p>
-        <p>
-          In my free time, you&#39;ll often find me at parks or botanical gardens, exploring new breweries and wineries, or attending live music events with my wife.
+          My career has allowed me to explore the technology world deeply, building systems and troubleshooting complex problems, which keeps me excited and constantly learning.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Goals and Vision</h2>
+        <h2 className="text-2xl font-semibold mb-4">Interests and Projects</h2>
         <p>
-          My goal is to continually expand my knowledge, contribute to innovative solutions, and support others on their journeys. Simplicity is key in my approach to life—focusing on nurturing my body, mind, and spirit. Looking ahead, I&#39;m excited about starting a family and the adventures that come with it.
+          Outside of work, I&#39;m the creator of two passion projects: <Link href="https://maizehelps.art/" target="_blank" rel="noopener noreferrer"><strong>Maize</strong></Link> and <Link href="https://www.cobsfarm.com/" target="_blank" rel="noopener noreferrer"><strong>Cob&#39;s Farm</strong></Link>, both of which allow me to explore blockchain technology in fun and creative ways. My interests stretch across areas like blockchain, AI, philosophy, and even stock market trends. 
+        </p>
+        <p>
+          At the heart of it all, I enjoy learning, whether it's discovering new tech or finding joy in the everyday.
+        </p>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4">Looking Ahead</h2>
+        <p>
+          My goal is simple: to keep growing, exploring, and sharing what I learn along the way. Whether it's in tech or life, I aim to maintain balance and stay curious. In the future, I&#39;m excited about the possibility of starting a family and continuing to explore new adventures.
         </p>
       </section>
 

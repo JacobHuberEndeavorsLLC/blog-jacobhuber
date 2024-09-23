@@ -5,7 +5,8 @@ import { Navbar } from "@/components/navbar";
 import { ThemeProvider } from "next-themes";
 import Footer from "@/components/footer";
 import ContextProvider from "@/context"; 
-import { headers } from "next/headers"; 
+import { headers } from "next/headers";
+import ApplyTheme from "../components/apply-theme";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -43,6 +44,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+            <ApplyTheme /> 
             <Navbar />
             {children}
             <Footer />

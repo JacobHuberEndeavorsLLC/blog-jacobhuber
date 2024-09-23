@@ -7,10 +7,10 @@ export default function Home() {
             <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         {/* Introduction */}
         <h1 className="text-3xl font-bold text-center sm:text-left">
-          Hi, I&#39;m Jacob
+          Welcome to JacobHuber.me
         </h1>
         <p className="text-lg text-center sm:text-left max-w-lg">
-          I&#39;m a software engineer passionate about blockchain, AI, the stock market, and real estate. Here you&#39;ll find information about me, my work, and my latest projects.
+          I&#39;m Jacob, and this is my space for sharing my work and thoughts. Here, you&#39;ll find more about me, my experiences, and a blog where I explore topics I&#39;m passionate about.
         </p>
 
         {/* Call to Actions (shadcn/ui Buttons) */}
